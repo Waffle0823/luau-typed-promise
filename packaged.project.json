@@ -1,0 +1,9 @@
+{
+  "name": "LuauTypedPromise",
+  "tree": {
+    "$path": "Packages",
+    "typed-promise": {
+      "$path": "lib"
+    }
+  }
+}
