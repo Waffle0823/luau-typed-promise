@@ -66,7 +66,7 @@ type SignalConnection = {
 	[any]: any,
 }
 
-return Promise :: {
+type PromiseModule = {
 	Error: any,
 
 	all: <T>(promises: { TypedPromise<T> }) -> TypedPromise<{ T }>,
@@ -119,3 +119,5 @@ return Promise :: {
 	some: <T>(promise: { TypedPromise<T> }, count: number) -> TypedPromise<{ T }>,
 	try: <TArgs..., TReturn...>(callback: (TArgs...) -> TReturn..., TArgs...) -> TypedPromise<TReturn...>,
 }
+
+return Promise :: PromiseModule

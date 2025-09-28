@@ -1,7 +1,7 @@
 [package]
 name = "waffle0823/luau-typed-promise"
 description = "A Promise library for Roblox with types"
-version = "0.1.0"
+version = "0.1.1"
 license = "MIT"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
