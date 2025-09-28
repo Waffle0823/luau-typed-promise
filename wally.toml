@@ -1,5 +1,5 @@
 [package]
-name = "Waffle0823/luau-typed-promise"
+name = "waffle0823/luau-typed-promise"
 description = "A Promise library for Roblox with types"
 version = "0.1.0"
 license = "MIT"
